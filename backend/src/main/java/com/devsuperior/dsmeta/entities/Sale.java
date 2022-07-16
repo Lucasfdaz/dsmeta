@@ -12,8 +12,8 @@ import javax.persistence.Table;
 @Table(name = "tb_sales") // Nome da tabela.
 public class Sale {
 	
-	@Id //Identifica o ID como unico para cada venda. 
-	@GeneratedValue(strategy = GenerationType.IDENTITY) // Faz com que o ID seja auto incremental e de forma automatica 1,2,3 ...
+	@Id //Identifica o ID como único para cada venda. 
+	@GeneratedValue(strategy = GenerationType.IDENTITY) // Faz com que o ID seja auto incremental e de forma automática 1,2,3 ...
 	private Long id;
 	private String sellerName;     //vendedor
 	private Integer visited;      //Numero de visitas
